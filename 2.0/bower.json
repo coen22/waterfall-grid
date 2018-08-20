@@ -1,0 +1,35 @@
+{
+  "name": "waterfall-grid",
+  "version": "1.0.0",
+  "authors": [
+    "Diego Haz <hazdiego@gmail.com>",
+    "Coen Hacking <coen.hacking@gmail.com>"
+  ],
+  "description": "A Polymer wrapper element for waterfall.js, a 1KB Javascript library for Pinterest-like grids.",
+  "keywords": [
+    "list",
+    "grid",
+    "pinterest",
+    "waterfall",
+    "web-components",
+    "web-component",
+    "web component",
+    "web components",
+    "polymer"
+  ],
+  "main": "waterfall-grid.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.0.0",
+    "waterfall": "^1.0.0"
+  },
+  "devDependencies": {
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^2.0.0",
+    "web-component-tester": "Polymer/web-component-tester#^6.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0",
+    "iron-component-page": "PolymerElements/iron-component-page#^3.0.1",
+    "paper-card": "PolymerElements/paper-card#~2.1.0"
+  },
+  "resolutions": {
+    "polymer": "^2.0.0"
+  }
+}

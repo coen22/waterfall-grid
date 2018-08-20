@@ -36,13 +36,18 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <p>An example of <code>&lt;waterfall-grid&gt;</code>:</p>
 
     <template id="demo" is="dom-bind">
-      <waterfall-grid>
-        <template id="items" is="dom-repeat" items="[[items]]">
-          <paper-card heading="[[item.title]]">
-            <div class="card-content">[[item.text]]</div>
-          </paper-card>
-        </template>
-      </waterfall-grid>
+		<template id="items" is="dom-repeat" items="[[items]]">
+		  <paper-card heading="[[item.title]]">
+			<div class="card-content">[[item.text]]</div>
+		  </paper-card>
+		</template>
+		<waterfall-grid>
+			<template id="items" is="dom-repeat" items="[[items]]">
+				<paper-card heading="[[item.title]]">
+					<div class="card-content">[[item.text]]</div>
+				</paper-card>
+			</template>
+		</waterfall-grid>
     </template>
 
     <script>
